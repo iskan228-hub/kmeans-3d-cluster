@@ -126,6 +126,12 @@ htmlcov/
 *.swp
 *.swo
 
+##############
+# MSYS / BASH
+##############
+# Dumps de erro gerados pelo Git Bash no Windows
+*.stackdump
+
 ################################################
 # DICA ÚTIL:
 # Se, em algum momento, você quiser versionar
