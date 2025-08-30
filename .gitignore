@@ -1,0 +1,134 @@
+##########################################################
+# PROJETO: KMeans 3D (Python + Jupyter)
+# Este arquivo define o que NÃO será versionado no Git.
+# Linhas iniciadas com # são comentários (documentação).
+#########################################################
+
+###############
+# VIRTUALENV
+###############
+# Ambiente virtual local do projeto
+.venv/
+venv/
+ENV/
+env/
+
+########################
+# CACHE / BYTES COMPIL.
+########################
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.dylib
+*.egg-info/
+.eggs/
+
+########
+# LOGS
+########
+*.log
+logs/
+*.tmp
+tmp/
+
+#####################
+# ARQUIVOS SECRETOS
+#####################
+# Credenciais/segredos locais
+.env
+*.env
+.env.*
+secrets.json
+*.key
+*.pem
+
+##############
+# JUPYTER
+##############
+# Checkpoints automáticos de notebooks
+.ipynb_checkpoints/
+# Saídas geradas por conversões de notebooks (quando usar nbconvert)
+*.nbconvert.ipynb
+# Arquivos auxiliares de execução
+.jupyter/
+
+##############
+# DADOS
+##############
+# Atenção: manteremos os diretórios no repositório, mas não os dados brutos/processados.
+# Para isso, usamos o padrão "ignore tudo, exceto .gitkeep".
+data/raw/**
+!data/raw/.gitkeep
+
+data/processed/**
+!data/processed/.gitkeep
+
+# Se exportar modelos/pesos futuramente:
+models/**
+!models/.gitkeep
+
+################
+# DOCUMENTAÇÃO
+################
+# Mantemos docs/ versionado (relatórios, imagens, etc.)
+# Se quiser ignorar PDFs grandes gerados automaticamente, descomente abaixo:
+# docs/**/*.pdf
+
+####################
+# EDITORES / IDEs
+####################
+# VS Code
+.vscode/
+# (Se quiser versionar configurações do projeto, remova a linha acima
+# e crie um .vscode/settings.json minimalista específico do projeto.)
+
+# PyCharm / IntelliJ
+.idea/
+
+#######################
+# SISTEMA OPERACIONAL
+#######################
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS (caso o projeto seja aberto em outro SO)
+.DS_Store
+.AppleDouble
+.LSOverride
+
+##############
+# BUILD / DIST
+##############
+build/
+dist/
+*.spec
+*.manifest
+
+##############
+# TESTES
+##############
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+##############
+# OUTROS
+##############
+# Arquivos temporários de editores
+*~
+~$*
+*.swp
+*.swo
+
+################################################
+# DICA ÚTIL:
+# Se, em algum momento, você quiser versionar
+# um arquivo específico que está ignorado, use:
+#   git add -f caminho/do/arquivo
+################################################
