@@ -61,14 +61,14 @@ pip install -r requirements.txt
 jupyter notebook
 
 ## 📂 Estrutura do repositório
-├── data/
-│   ├── raw/         # dataset original (CSV completo)
-│   └── processed/   # dataset tratado com 3 variáveis
-├── notebooks/       # exploração e clusterização
-├── src/             # scripts de preparação e modelo
-├── reports/         # figuras e relatórios
-├── requirements.txt
-├── README.md
+├── data/  
+│   ├── raw/         # dataset original (CSV completo)  
+│   └── processed/   # dataset tratado com 3 variáveis  
+├── notebooks/       # exploração e clusterização  
+├── src/             # scripts de preparação e modelo  
+├── reports/         # figuras e relatórios  
+├── requirements.txt  
+├── README.md  
 └── LICENSE
 
 ## 👥 Equipe
