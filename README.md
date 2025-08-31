@@ -1,9 +1,9 @@
 # Clusterização em 3D com K-Means
 
-[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)  
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)  
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)  
-[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)  
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)
 [![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC.svg?logo=visualstudiocode)](https://code.visualstudio.com/)  
 
 Projeto desenvolvido para a disciplina **Aprendizado de Máquina Não Supervisionado** do **4º semestre do curso Tecnólogo em Ciência de Dados** da **Faculdade de Tecnologia e Inovação Senac DF**, sob orientação do **professor Rogério Gomes Lopes**.  
