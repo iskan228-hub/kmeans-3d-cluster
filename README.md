@@ -1,5 +1,11 @@
 # Clusterização em 3D com K-Means
 
+[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)  
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)  
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)  
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)  
+[![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC.svg?logo=visualstudiocode)](https://code.visualstudio.com/)  
+
 Projeto desenvolvido para a disciplina **Aprendizado de Máquina Não Supervisionado** do **4º semestre do curso Tecnólogo em Ciência de Dados** da **Faculdade de Tecnologia e Inovação Senac DF**, sob orientação do **professor Rogério Gomes Lopes**.  
 
 O trabalho consiste na aplicação do algoritmo **K-Means** a **três variáveis contínuas**, com foco em **aprendizado não supervisionado** e **visualização tridimensional dos clusters**.  
@@ -46,7 +52,6 @@ Essas variáveis permitem formar um espaço tridimensional (renda, patrimônio e
 # Clonar o repositório
 git clone https://github.com/PadawanXXVI/kmeans-3d-cluster.git
 cd kmeans-3d-cluster
-```
 
 # Criar ambiente virtual (opcional)
 python -m venv .venv
@@ -59,8 +64,12 @@ pip install -r requirements.txt
 
 # Rodar notebooks
 jupyter notebook
+```
+
+---
 
 ## 📂 Estrutura do repositório
+```
 ├── data/  
 │   ├── raw/         # dataset original (CSV completo)  
 │   └── processed/   # dataset tratado com 3 variáveis  
@@ -70,8 +79,11 @@ jupyter notebook
 ├── requirements.txt  
 ├── README.md  
 └── LICENSE
+```
+
+---
 
 ## 👥 Equipe
-- Anderson de Matos Guimarães  
-- Gustavo Stefano Thomazinho  
-- Renan Ost  
+- **Anderson de Matos Guimarães** – [anderson.m.guimaraes@icloud.com](mailto:anderson.m.guimaraes@icloud.com)  
+- **Gustavo Stefano Thomazinho** – [gustavo.stefano@gmail.com](mailto:gustavo.stefano@gmail.com)  
+- **Renan Ost** – [renanost@gmail.com](mailto:renanost@gmail.com)  
