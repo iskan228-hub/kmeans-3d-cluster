@@ -57,11 +57,16 @@ secrets.json
 ##############
 # DADOS
 ##############
-# Atenção: manteremos os diretórios no repositório, mas não os dados brutos/processados.
-# Para isso, usamos o padrão "ignore tudo, exceto .gitkeep".
+# Atenção: manteremos os diretórios no repositório, mas não os dados processados.
+# Apenas o dataset bruto principal será versionado em raw/.
+
+# Ignora tudo em raw...
 data/raw/**
+# ...mas permite o dataset bruto e o .gitkeep
+!data/raw/distribuicao-renda.csv
 !data/raw/.gitkeep
 
+# Ignora tudo em processed, exceto o .gitkeep
 data/processed/**
 !data/processed/.gitkeep
 
