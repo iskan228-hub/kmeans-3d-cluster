@@ -66,8 +66,11 @@ data/raw/**
 !data/raw/distribuicao-renda.csv
 !data/raw/.gitkeep
 
-# Ignora tudo em processed, exceto o .gitkeep
+# Ignora tudo em processed...
 data/processed/**
+# ...mas permite arquivos finais .csv e .json e o .gitkeep
+!data/processed/*.csv
+!data/processed/*.json
 !data/processed/.gitkeep
 
 # Se exportar modelos/pesos futuramente:
