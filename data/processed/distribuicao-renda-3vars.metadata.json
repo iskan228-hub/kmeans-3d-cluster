@@ -1,0 +1,25 @@
+{
+  "created_at": "2025-09-01T16:28:56",
+  "source_file": "C:\\Users\\96207159187\\Desktop\\kmeans-3d-cluster\\data\\raw\\distribuicao-renda.csv",
+  "output_file": "C:\\Users\\96207159187\\Desktop\\kmeans-3d-cluster\\data\\processed\\distribuicao-renda-3vars.csv",
+  "year_base": 2020,
+  "sampling_rule": "ano=max; UFs=all (excl. agregados nacionais); centis=1..N tal que linhas entre 300-500",
+  "n_rows": 150,
+  "units": {
+    "rtb_soma_centil": "R$ milhões (somatório por centil)",
+    "bens_imoveis": "R$ milhões (somatório por UF-centil)",
+    "dividas_onus": "R$ milhões (somatório por UF-centil)"
+  },
+  "notes": [
+    "Colunas padronizadas para snake_case.",
+    "Zeros podem representar ausência real de bens/dívidas.",
+    "EDA completa salva em reports/figures/.",
+    "Transformações log(1+x) usadas apenas para visualização na EDA."
+  ],
+  "random_seed": 42,
+  "authors": [
+    "Anderson de Matos Guimarães",
+    "Renan Ost",
+    "Gustavo Stefano Thomazinho"
+  ]
+}
